@@ -40,4 +40,9 @@ label {
     height: 20px     
   }
   
+  div {
+    display: inline;
+  }
+  
+}
 
