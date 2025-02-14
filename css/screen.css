@@ -3,3 +3,23 @@ html {
   font-family: tahoma;
   font-size: 15px;
 }
+
+input {
+  widith: 95%;
+  height: 30px;
+  margin: 0 auto;
+  
+}
+
+div {
+  widith: 50%;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  background-color: #c9e5f2;
+  text-align: center;
+  height: 30px;
+}
+
