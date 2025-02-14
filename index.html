@@ -10,7 +10,6 @@
 <body>
   <form action="submit-form.php" method="POST" autocomplete="on"
     <fieldset>
-    <form action="#null" method="POST" autocomplete="on">
     <legend>Fill in the Information below</legend>
       <div>
         <label for="email">Email Address: </label>
@@ -19,9 +18,16 @@
       
       <div>
         <label for="phone">Phone Number: </label>
-        <input type="tel" name="phone" required placeholder="(XXX) XXX-XXXX)">
+        <input type="tel" name="phone" placeholder="(XXX) XXX-XXXX)">
       </div>
       
+      <div>
+        <label for="dob">Date of Birth: </label>
+        <input type="date" name="dob" required>
+      </div>
+      <button type="submit">Submit </button>
+    </fieldset>
+  </form>
    
     
 
