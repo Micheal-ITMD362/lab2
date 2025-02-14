@@ -5,10 +5,8 @@ html {
 }
 
 input {
-  widith: 95%;
-  height: 30px;
-  margin: 0 auto;
-  
+  width: 98%;
+  height: 30px;  
 }
 
 div {
@@ -22,4 +20,24 @@ label {
   text-align: center;
   height: 30px;
 }
+
+@media screen and (min-width: 620px) {
+  label {
+    display: inline-block;
+    color: white;
+    background-color: #5aa3c4;
+    margin-right: 5px;
+    font-size: 1.3em;
+    width: 28%;
+    height: 20px;
+    padding: 30px;
+    
+  }
+    
+  input{
+    width: 30%;
+    float: clear;
+    height: 20px     
+  }
+  
 
