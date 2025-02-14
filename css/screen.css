@@ -1,6 +1,6 @@
 html {
   line-height: 1.2em;
-  font-family: tahoma;
+  font-family: tahoma, san-serif;
   font-size: 15px;
 }
 
@@ -10,7 +10,7 @@ input {
 }
 
 div {
-  widith: 50%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -29,20 +29,20 @@ label {
     margin-right: 5px;
     font-size: 1.3em;
     width: 28%;
-    height: 20px;
-    padding: 30px;
+    line-height: 2em;
+    padding: 5px;
     
   }
     
   input{
     width: 30%;
-    float: clear;
     height: 20px     
   }
   
   div {
-    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
 }
-
