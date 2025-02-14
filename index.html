@@ -8,22 +8,22 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-  <form action="submit-form.php" method="POST" autocomplete="on"
+  <form action="submit-form.php" method="POST" autocomplete="on">
     <fieldset>
     <legend>Fill in the Information below</legend>
       <div>
         <label for="email">Email Address: </label>
-        <input type="email" name="email_field" placeholder="example@email.com">
+        <input type="email" id="email" name="email_field" placeholder="example@email.com">
       </div>
       
       <div>
         <label for="phone">Phone Number: </label>
-        <input type="tel" name="phone" placeholder="(XXX) XXX-XXXX)">
+        <input type="tel" id="phone" name="phone" placeholder="(XXX) XXX-XXXX)">
       </div>
       
       <div>
         <label for="dob">Date of Birth: </label>
-        <input type="date" name="dob" required>
+        <input type="date" id="dob" name="dob" required>
       </div>
       <button type="submit">Submit </button>
     </fieldset>
